@@ -1,12 +1,21 @@
 @Echo Off
-Set "SPth="
-For /F "Tokens=1,2*" %%A In ('Reg Query HKCU\SOFTWARE\Valve\Steam') Do (
-    If "%%A" Equ "SteamPath" Set "SPth=%%C/steamapps/common/VRising/VRising_Data/StreamingAssets/Localization"
-)
-If Defined SPth (
-    Echo=Your VRising folder path is "%SPth%"
-    COPY "%~dp0\TWChinese.json" "%SPth%"
+Set "IPth="
+Set "QPth="
+
+if %PROCESSOR_ARCHITECTURE%==x86 (
+  Set "QPth=HKLM\SOFTWARE\Valve\Steam"
 ) else (
-    Echo=The Steam folder path is not found
+  Set "QPth=HKLM\SOFTWARE\Wow6432Node\Valve\Steam"
+)
+
+For /F "Tokens=1,2*" %%A In ('Reg Query %QPth%') Do (
+    If "%%A" Equ "InstallPath" Set "IPth=%%C\steamapps\common\VRising\VRising_Data\StreamingAssets\Localization"
+)
+
+If Defined IPth (
+    Echo=Your VRising installation folder path is "%IPth%"
+    COPY "%~dp0\TWChinese.json" "%IPth%"
+) else (
+    Echo=The VRising installation folder path is not found
 )
 Pause
