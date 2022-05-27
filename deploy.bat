@@ -14,7 +14,7 @@ For /F "Tokens=1,2*" %%A In ('Reg Query %QPth%') Do (
 
 If Defined IPth (
     Echo=Your VRising installation folder path is "%IPth%"
-    COPY "%~dp0\TWChinese.json" "%IPth%"
+    COPY "%~dp0\TChinese.json" "%IPth%"
 ) else (
     Echo=The VRising installation folder path is not found
 )
