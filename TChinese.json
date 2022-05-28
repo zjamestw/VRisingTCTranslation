@@ -374,7 +374,7 @@
     },
     {
       "Guid": "d6ba1794-ee8d-4094-b0ed-2bfd61584b11",
-      "Text": "召喚一個幽靈守護者，其護盾保盾區域內所有同伴免受相當於你的法術攻擊力 {smallabsorb} 的傷害並以其大手攻擊敵人。護盾每 {tickduration} 會重新展開。幽靈守護者持續時間為 {duration} 秒。"
+      "Text": "召喚一個幽靈守護者，其護盾保護區域內所有同伴免受相當於你的法術攻擊力 {smallabsorb} 的傷害並以其大手攻擊敵人。護盾每 {tickduration} 會重新展開。幽靈守護者持續時間為 {duration} 秒。"
     },
     {
       "Guid": "3397231e-bd7a-4c1f-9ce3-7c2f984c6ce6",
