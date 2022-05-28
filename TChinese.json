@@ -1130,7 +1130,7 @@
     },
     {
       "Guid": "a99ddb9b-e06a-422a-861c-0fd2501cc8b6",
-      "Text": "<teal1>{chance}</c> 有機率格擋一次攻擊，減少 <teal1>{damagereudction}</c> 受到的傷害。 招架攻擊會使你自己的傷害增加 <teal1>{factor}</c>。"
+      "Text": "受到傷害時有<teal1>{chance}</c> 的機率減免 <teal1>{damagereudction}</c> 傷害，並增加自身傷害輸出 <teal1>{factor}</c>。"
     },
     {
       "Guid": "023ee69b-9db6-45da-9bde-cf8a0f40ad7f",
@@ -1190,7 +1190,7 @@
     },
     {
       "Guid": "8788641d-58b9-494c-be2e-5a4821e461d5",
-      "Text": "<teal1>{chance}</c> 機率恢復每個相對生命值，以將移動速度提高 <teal1>{speedfactor}</c>，將主要攻擊的傷害提高 <teal1>{damage}</c>。"
+      "Text": "每恢復生命值有機率<teal1>{chance}</c> 機率，提升移動速度 <teal1>{speedfactor}</c>，主要傷害提高 <teal1>{damage}</c>。"
     },
     {
       "Guid": "fbe1c483-8b7a-4026-a606-fd25a61b7568",
@@ -1238,7 +1238,7 @@
     },
     {
       "Guid": "8a1fa342-4fa6-48e4-8b57-8ad6f4fcd5f2",
-      "Text": "<teal1>{chance}</c> 暴擊時有機會造成破甲，在 <teal1>{duration}s</c> 內增加 <teal1>{amplifyfactor}</c> 從所有來源受到的傷害"
+      "Text": "暴擊時有 <teal1>{chance}</c> 機率造成破甲，在 <teal1>{duration}s</c> 內目標所受傷害增加 <teal1>{amplifyfactor}</c>"
     },
     {
       "Guid": "343e176a-7ccd-4732-84b6-050803de42cb",
@@ -6222,7 +6222,7 @@
     },
     {
       "Guid": "645eb41f-f454-40a3-880d-48941b5bd2e4",
-      "Text": "油石"
+      "Text": "砥石"
     },
     {
       "Guid": "a45f2523-4448-40c2-9f96-4f2d43ada733",
@@ -9894,7 +9894,7 @@
     },
     {
       "Guid": "3c44a269-7d2d-4e54-91b8-3a15e31bcb4b",
-      "Text": "猛獸"
+      "Text": "野蠻"
     },
     {
       "Guid": "dac22958-9052-4880-8d89-dcd23199b489",
