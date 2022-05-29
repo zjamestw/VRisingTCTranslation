@@ -1,5 +1,5 @@
-# VRising Traditional Chinese Translation
-## VRising 繁體中文翻譯
+# VRising Unofficial Traditional Chinese Translation
+## VRising 非官方繁體中文翻譯
 
 ## 使用方法
 
